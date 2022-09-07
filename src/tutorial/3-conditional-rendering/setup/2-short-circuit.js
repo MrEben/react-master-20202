@@ -6,8 +6,8 @@ const ShortCircuit = () => {
   const [text, settext] = useState("");
   const [error, seterror] = useState(false);
   // const [text, settext] = useState("");
-  const firstValue = text || "hello world";
-  const secondValue = text && "hello world";
+  // const firstValue = text || "hello world";
+  // const secondValue = text && "hello world";
 
   return (
     <>
